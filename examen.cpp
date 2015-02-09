@@ -77,6 +77,7 @@ printf("------------------\n");
 
     printf("------------------\n");
     printf("------------------\n");
+    return();//Regresa el control al que lo invoco
     }
 
     void suma_periodos();
@@ -87,12 +88,14 @@ printf("------------------\n");
 
                             printf("------------------\n");
                             }
+        return();//Regresa el control al que lo invoco
     }
 
     void imprime_datos();
     {
         printf("%d \n", e);
         printf("%d \n", d);
+        return();//Regresa el control al que lo invoco
     }
 
 }
